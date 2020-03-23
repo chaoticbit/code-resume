@@ -93,17 +93,20 @@ export const Resume = {
     projects: `{
         Projects = () => {        
             segmented-control-react: {
-                github: '<a target='_blank' href='npm-link'>npm-link</a>',
+                npm: <a target='_blank' href='https://npmjs.com/segmented-control-react'>https://npmjs.com/segmented-control-react</a>,
             },
-            Routeplango: {
-                url: <a href='https://routeplango.com/'>Routeplango</a>,
+            Distributed Blockchain-based File Storage in Elixir: {
+                github: <a target='_blank' href='https://github.com/chaoticbit/dbfs'>https://github.com/chaoticbit/dbfs</a>,
             },
-            soapbox: {                
-                github: 'https://github.com/chaoticbit/Soapbox'
+            Soapbox: {                
+                github: <a target='_blank' href='https://github.com/chaoticbit/Soapbox'>https://github.com/chaoticbit/Soapbox</a>
             },
-            recipe recommendation application: {
-                github: 'https://github.com/chaoticbit/whats-cooking-webapp'
-                github: 'https://github.com/chaoticbit/whats-cooking-api'
+            Recipe recommendation application: {
+                github: <a target='_blank' href='https://github.com/chaoticbit/whats-cooking-webapp'>https://github.com/chaoticbit/whats-cooking-webapp</a>
+                github: <a target='_blank' href='https://github.com/chaoticbit/whats-cooking-api'>https://github.com/chaoticbit/whats-cooking-api</a>
+            },
+            React component boilerplate: {
+                github: <a target='_blank' href='https://github.com/chaoticbit/react-component-boilerplate'>https://github.com/chaoticbit/react-component-boilerplate</a>
             }
         }
 }`,
@@ -111,12 +114,12 @@ export const Resume = {
     playground: `{
         Playground = () => {   
             Segmented Control React: {
-                url: 'https://npmjs.com/segmented-control-react',
-                github: 'https://github.com/chaoticbit/segmented-control-react'
+                url: <a target='_blank' href='https://npmjs.com/segmented-control-react'>https://npmjs.com/segmented-control-react</a>,
+                github: <a target='_blank' href='https://github.com/chaoticbit/segmented-control-react'>https://github.com/chaoticbit/segmented-control-react</a>
             },    
             Soapbox: {
-                url: 'https://www.mvcsoapbox.herokuapp.com',
-                github: 'https://github.com/chaoticbit/Soapbox'
+                url: <a target='_blank' href='http://www.mvcsoapbox.herokuapp.com'>http://www.mvcsoapbox.herokuapp.com</a>,
+                github: <a target='_blank' href='https://github.com/chaoticbit/Soapbox'>https://github.com/chaoticbit/Soapbox</a>
             }            
         }
 }`,
@@ -135,6 +138,6 @@ export const Resume = {
 export const SocialLinks = {
     resume: '/resume.pdf',
     linkedin: 'https://www.linkedin.com/in/atharva-dandekar-498b3078/',
-    twitter: 'https://twitter.com/amitmishrg',
+    twitter: 'https://twitter.com/chaoticbit',
     github: 'https://github.com/chaoticbit'
 }
