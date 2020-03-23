@@ -1,37 +1,32 @@
-export const Title = 'Amit Mishra ~ Senior Web Developer';
+export const Title = 'Atharva Dandekar ~ AMTS Software Engineer';
 
 export const Resume = {
     introduction: `{ 
         Introduction = () => { 
             Namaste: { 
-                Name: 'Amit Mishra', 
-                Designation: 'Senior Web Developer' 
+                Name: 'Atharva Dandekar', 
+                Designation: 'AMTS Software Engineer' 
             } 
         } 
 }`,
 
     experience: `{
         Experience = () => {
-            Media.net: {
-                company: 'Directi(Media.net)',
-                designation: 'Senior Web Developer',
-                period: 'Feb 2017 to Present'
+            Salesforce: {
+                company: 'Salesforce.com',
+                designation: 'AMTS Software Engineer',
+                period: 'July 2019 to Present'
             },
-            Onlinemocks: {
-                company: 'Onlinemocks Pvt. Ltd.',
-                designation: 'UI Developer',
-                period: 'May 2016 to January 2017'
+            Salesforce: {
+                company: 'Salesforce.com',
+                designation: 'Software Engineer Summer Intern',
+                period: 'June 2018 to Auguest 2018'
             },
-            Collegedunia: {
-                company: 'Collegedunia Web Pvt. Ltd.',
-                designation: 'UI Developer',
-                period: 'October 2015 to April 2016'
-            },
-            Rising Hues: {
-                company: 'Rising Hues Technology LLP.',
-                designation: 'Web Developer',
-                period: 'July 2014 to September 2015'
-            }
+            CodePandora: {
+                company: 'Beatika Technologies Pvt Ltd',
+                designation: 'Full-Stack software developer Intern',
+                period: 'January 2016 to June 2016'
+            },            
         }
 }`,
 
@@ -42,88 +37,95 @@ export const Resume = {
                 version: 5
             },
             Styling: {
-                css: 'Cascading Style Sheets',
+                css: 'Cascading Style Sheets 3',
                 sass: 'Syntactically Awesome Style Sheets',
                 postCss: 'PostCSS',
-                bootStrap: 'Bootstrap'
+                bootStrap: 'Bootstrap'                
             },
             JavaScript: {
                 js: 'JavaScript',
+                lwc: 'Salesforce Lightning',
+                angular: 'Angular JS',
                 react: 'React JS',
                 redux: 'Redux',
                 saga: 'Redux-Saga',
                 pwa: 'Progressive Web App',
                 node: 'Node JS'
             },
+            Java: {
+                java: 'Java 8',
+                ds: 'Design Patterns',
+                mq: 'MessageQueue Implementation',
+                ms: 'Microservices',                
+            },
             BuildTools: {
                 webpack: 'Webpack',
-                gulp: 'Gulp'
+                grunt: 'Grunt',
+                gulp: 'Gulp',
+                rollup: 'Rollup'
             },
             Others: {
                 $: 'Jquery',
+                php: 'Php MVC',                
                 performance: 'Performance Optimization',
                 wd: 'Web Development',
                 rwd: 'Responsive Web Design',
                 validation: 'W3C Validation',
                 cbc: 'Cross-browser Compatibility',
-                vc: 'Version Control'
+                vc: 'Version Control',
+                deployment: ['Heroku','AWS Console']
             },
             Tools: {
-                sketch: 'Sketch',
+                sketch: 'Sketch',                
                 github: 'Github',
-                gitlab: 'Gitlab',
-                code: 'VS Code'
+                eclipse: 'Eclipse',
+                intellij: 'Intellij IDEA',
+                code: 'VS Code',
+                xcode: 'Xcode'
+            },
+            Database: {
+                relational: 'MySQL',
+                nonrelational: 'MongoDB'
             }
         }
 }`,
 
     projects: `{
-        Projects = () => {
-            zeta: {
-                url: 'https://www.zeta.tech/zeta-spotlight/',
+        Projects = () => {        
+            segmented-control-react: {
+                github: '<a target='_blank' href='npm-link'>npm-link</a>',
             },
-            Collegedunia: {
-                url: 'https://collegedunia.com/',
+            Routeplango: {
+                url: <a href='https://routeplango.com/'>Routeplango</a>,
             },
-            lib4dev: {
-                url: 'http://www.lib4dev.in/',
-                github: 'https://github.com/amitmishrg/lib4dev'
+            soapbox: {                
+                github: 'https://github.com/chaoticbit/Soapbox'
             },
-            Onlinemocks: {
-                url: 'http://onlinemocks.com/',
+            recipe recommendation application: {
+                github: 'https://github.com/chaoticbit/whats-cooking-webapp'
+                github: 'https://github.com/chaoticbit/whats-cooking-api'
             }
         }
 }`,
 
     playground: `{
         Playground = () => {   
-            Code Resume: {
-                url: 'https://code-resume.herokuapp.com/',
-                github: 'https://github.com/amitmishrg/code-resume'
+            Segmented Control React: {
+                url: 'https://npmjs.com/segmented-control-react',
+                github: 'https://github.com/chaoticbit/segmented-control-react'
             },    
-            offline News App: {
-                url: 'https://offline-news-app.herokuapp.com/',
-                github: 'https://github.com/amitmishrg/offline-news-app'
-            },
-            CSS Animation: {
-                url: 'https://codepen.io/amitmishrg/pen/vxoWVd',
-                github: 'https://github.com/amitmishrg/CSS-Designs-and-Animation'
-            },
-            Wrist Watch: {
-                url: 'https://codepen.io/amitmishrg/pen/evqeQp',
-                github: 'https://github.com/amitmishrg/wrist-watch'
-            },
-            Mini Portfolio: {
-                url: 'https://codepen.io/amitmishrg/pen/pLELXZ'
-            }
+            Soapbox: {
+                url: 'https://www.mvcsoapbox.herokuapp.com',
+                github: 'https://github.com/chaoticbit/Soapbox'
+            }            
         }
 }`,
 
     contact: `{
         Contact = () => {       
             {
-                email: 'amitmishra009v@gmail.com',
-                mobile: '8802100560'
+                email: 'dandekar.atharva@gmail.com',
+                mobile: '(551) 267-5099'
             }
         }
 }`
@@ -132,8 +134,7 @@ export const Resume = {
 
 export const SocialLinks = {
     resume: '/resume.pdf',
-    linkedin: 'https://www.linkedin.com/in/amitmishrg/',
+    linkedin: 'https://www.linkedin.com/in/atharva-dandekar-498b3078/',
     twitter: 'https://twitter.com/amitmishrg',
-    github: 'https://github.com/amitmishrg'
+    github: 'https://github.com/chaoticbit'
 }
-

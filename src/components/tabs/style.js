@@ -64,3 +64,23 @@ export const Li = styled.li`
         }
     }
 `
+
+export const Console = styled.div`
+    position: relative;
+    @media (max-width: 768px) {
+        flex: 0 0 auto;
+        display: flex;
+    }
+    border-bottom: 1px solid ${props => props.theme.textActiveColor};
+`
+export const Input = styled.input`
+    width: 100%;
+    position: relative;
+    padding: 15px 15px 10px 0px;
+    background-color: transparent;
+    color: ${props => props.theme.textActiveColor};
+    outline: 0;
+    font-size: 14px;
+    border: none;
+    font-family: Monaco, Menlo, Inconsolata, "Courier New", monospace;
+`
