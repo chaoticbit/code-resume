@@ -64,6 +64,11 @@ export const Li = styled.li`
         }
     }
 `
+export const QueryButton = styled.button`
+    position: relative;
+    display: inline-block;
+    
+`
 
 export const Console = styled.div`
     position: relative;
